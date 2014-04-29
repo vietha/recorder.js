@@ -55,8 +55,9 @@ package
 		protected var sound:Sound;
 		protected var channel:SoundChannel;
 		protected var recordingStartTime = 0;
-		protected static var sampleRate = 44.1;
-		
+		//protected static var sampleRate = 44.1;
+		protected static var sampleRate = 16; // change to 16KHz by hatruong		
+
 		protected function record():void
 		{
 			if(!microphone){ 
